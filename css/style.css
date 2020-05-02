@@ -271,10 +271,7 @@ a {
       margin: 7rem auto;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.253); }
     .see__container .two__img-2 {
-      position: relative;
-      bottom: 40%;
-      right: 7%;
-      transform: scale(1.1);
+    transform: translate(-10rem, -30rem);
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.253); }
 
 .discover__2 {
