@@ -1,0 +1,134 @@
+.hero {
+    background: url(../img/Hero.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    background-position: 150% -9rem;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+
+
+
+
+    &__container {
+
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        margin-left: 5rem;
+
+
+    }
+
+    &__heading {
+        font-size: 6rem;
+        line-height: 7rem;
+        font-weight: 1000;
+        padding: 1rem;
+        padding-bottom: 2rem;
+        ;
+
+        font-family: 'Poppins', sans-serif;
+    }
+
+    &__text {
+
+        font-size: 2rem;
+        font-weight: lighter;
+        line-height: 2.6rem;
+        padding: 1rem;
+        letter-spacing: 0.1rem;
+        color: #555;
+
+    }
+
+    &__btn {
+
+
+
+        margin-top: 2.5rem;
+
+        &-one {
+            margin-left: 2rem;
+            padding: 1.7rem 3rem 1.7rem 3rem;
+            font-size: 1.9rem;
+            background-color: #222;
+            font-weight: bold;
+            color: white;
+            border-radius: 10rem;
+            display: inline-block;
+
+            &:link,
+            &:visited {
+                color: white;
+
+
+
+
+            }
+
+            &:hover {
+                transform: translateY(-0.3rem);
+            }
+
+            &:active {
+                transform: translateY(0rem);
+            }
+
+        }
+
+        &-two {
+
+            padding: 1.7rem 3rem 1.7rem 3rem;
+            font-size: 1.9rem;
+            background-color: #222;
+            font-weight: bold;
+            color: white;
+            border-radius: 10rem;
+            display: inline-block;
+            z-index: 100;
+
+            &:link,
+            &:visited {
+                color: white;
+
+
+
+
+            }
+
+            &:hover {
+                transform: translateY(-0.3rem);
+            }
+
+            &:active {
+                transform: translateY(0rem);
+            }
+
+            margin-left: 1rem;
+            font-size: 2.3rem;
+            background-color: transparent;
+            color: rgb(32, 32, 32);
+            font-weight: bold;
+
+            &:visited,
+            &:link {
+                color: rgb(0, 0, 0);
+
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+}

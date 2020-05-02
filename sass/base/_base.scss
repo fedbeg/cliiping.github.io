@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+html{
+    font-size: 50%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    scroll-behavior: smooth;
+    
+    
+
+}
+
+
+
+a{
+    text-decoration: none;
+  
+}
+
+@media only screen and (min-width: 3000px) {
+    html{
+        font-size: 200%;
+    }
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 3000px) { 
+    html{
+        font-size: 100%;
+    }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 2000px) { 
+    html{
+        font-size: 70%;
+    }
+}
