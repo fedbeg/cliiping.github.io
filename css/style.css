@@ -250,13 +250,14 @@ a {
     flex-direction: row;
     padding: 2rem 6rem 2rem 6rem;
     flex-flow: wrap;
+    justify-content: space-between;
     height: 100%; }
     .see__container .one {
       display: flex;
       flex-direction: column;
       justify-content: center;
       backface-visibility: hidden;
-      flex: 0 0 39%; }
+      ; }
       .see__container .one__heading {
         font-size: 6.5rem;
         margin-bottom: 4rem; }
