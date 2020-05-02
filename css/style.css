@@ -5,7 +5,7 @@
   font-family: inherit; }
 
 html {
-  font-size: 50%;
+  font-size: 55%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-display: swap;
@@ -256,7 +256,7 @@ a {
       flex-direction: column;
       justify-content: center;
       backface-visibility: hidden;
-      flex: 0 0 44%; }
+      flex: 0 0 39%; }
       .see__container .one__heading {
         font-size: 6.5rem;
         margin-bottom: 4rem; }
