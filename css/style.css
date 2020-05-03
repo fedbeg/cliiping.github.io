@@ -17,8 +17,7 @@ padding: 0;
 
 }
 
-body{
-  overflow:hidden;
+body{overflow: hidden;}
 
 a {
   text-decoration: none; }
