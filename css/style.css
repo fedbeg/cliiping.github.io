@@ -474,7 +474,7 @@ a {
      ;
   }
   .see__container .two__img-1{
-    transform: translateX(-3rem) scale(0.7);
+    transform: translateX(-3rem) scale(0.5);
   }
   .showcase__image__container-img{
     background-size: contain;
